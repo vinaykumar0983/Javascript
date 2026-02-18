@@ -44,3 +44,31 @@ console.log(typeof bigNumber);
 
 //https://262.ecma-international.org/5.1/#sec-11.4.3
 
+//++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+
+// Stack(Primitive)=> data ki copy banati hai 
+// Heap(Non Primitive) => reference milata hai
+
+let myYoutubename="hiteshchoudhary.com"
+
+let anotherName = myYoutubename
+anotherName="chaiAurCode"
+
+console.log(myYoutubename);
+console.log(anotherName);
+
+
+let user1={
+    email:"user@gamil.com",
+    upi:"user@ybl"
+}
+
+let user2=user1;
+
+user2.email="Vinay@gmail.com"
+
+console.log(user1);
+console.log(user2);
+
+
+
